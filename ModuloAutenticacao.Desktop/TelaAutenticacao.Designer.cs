@@ -48,7 +48,7 @@
             // txtSenha
             // 
             this.txtSenha.AutoSize = true;
-            this.txtSenha.Location = new System.Drawing.Point(42, 85);
+            this.txtSenha.Location = new System.Drawing.Point(42, 92);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(38, 13);
             this.txtSenha.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(81, 85);
+            this.textBox1.Location = new System.Drawing.Point(81, 89);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(375, 20);
             this.textBox1.TabIndex = 2;
@@ -70,9 +70,10 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(45, 145);
+            this.btnEntrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnEntrar.Location = new System.Drawing.Point(206, 132);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(411, 23);
+            this.btnEntrar.Size = new System.Drawing.Size(96, 31);
             this.btnEntrar.TabIndex = 4;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -82,13 +83,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(527, 228);
+            this.BackColor = System.Drawing.Color.DarkGreen;
+            this.ClientSize = new System.Drawing.Size(519, 185);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtLogin);
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

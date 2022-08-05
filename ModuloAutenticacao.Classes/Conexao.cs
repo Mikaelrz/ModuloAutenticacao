@@ -1,4 +1,5 @@
-﻿using System.Data.Common;
+﻿//namespace = pasta (Lógica)
+using System.Data.Common;
 using System.Data.SqlClient;
 
 namespace ModuloAutenticacao.Classes

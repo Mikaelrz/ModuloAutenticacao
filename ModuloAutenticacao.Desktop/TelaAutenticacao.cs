@@ -45,6 +45,7 @@ namespace ModuloAutenticacao.Desktop
             else
             {
                 MessageBox.Show("Sucesso!");
+                new TelaCadUsuario().Show();
             }
         }
     }
